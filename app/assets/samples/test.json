@@ -1,0 +1,58 @@
+{
+  "site": {
+    "id": 1,
+    "name": "My site",
+    "handle": "my-site",
+    "theme_handle": "test",
+    "style": {},
+    "metadata": {}
+  },
+  "page": {
+    "id": 1,
+    "title": "Home page",
+    "slug": "index",
+    "seo_title": "Home page",
+    "position": 1,
+    "site_id": 1,
+    "content": {
+      "blocks": [
+        {
+          "type": "header",
+          "content": {
+            "title": "Put some other stuff here.",
+            "background": "http://placehold.it/200x200&text=Placeholder"
+          }
+        },
+        {
+          "type": "content_widget",
+          "content": {
+            "title": "Content Widget",
+            "background": "https://jaysanalysis.files.wordpress.com/2014/08/alien.jpg",
+            "description": "Ad ab enim aliquam veniam incidunt distinctio."
+          }
+        },
+        {
+          "type": "test_form",
+          "content": {
+            "title": "Corrupti aliquam autem tempore et voluptatem numquam fugit.",
+            "text": "<p>Sed cum et sit nemo rerum accusantium quo nihil. Ratione voluptatum consequatur sit iste temporibus in. Dicta perspiciatis qui. Quisquam nam et quos quo laborum.</p>\n<p>Dicta ad sint cupiditate nam architecto asperiores similique facilis consequatur. Unde possimus rerum neque et. Vel necessitatibus voluptate. Accusamus consequatur sequi consequatur enim sunt suscipit dolores nisi cupiditate. Sint magni error impedit sequi distinctio magni et sunt. Quia qui quasi dignissimos reiciendis nesciunt ducimus.</p>",
+            "button_label": "<p>Consequatur sed tempore. Laborum quia quo vel rem sint est quod et velit. At ratione nam.</p>\n<p>Qui quasi quas necessitatibus. Similique reiciendis dicta. Debitis quo nisi. Aperiam qui enim vero.</p>",
+            "agentID": "<p>A ullam consequatur minima. Quia rerum distinctio et nam unde omnis aperiam. Fuga consequatur error perspiciatis consequatur.</p>\n<p>Quam iure voluptatibus. Soluta esse tempora vitae et ut aut voluptates. Corporis consequatur ducimus suscipit voluptates aspernatur inventore. Quibusdam nam libero culpa soluta corporis. Sed neque magni magni accusantium. Quia sed aut non corrupti et doloribus.</p>",
+            "background": "http://placehold.it/200x200&text=Placeholder"
+          }
+        },
+        {
+          "type": "test_form_2",
+          "content": {
+            "title": "Test Form 2",
+            "text": "Tell us about yourself!",
+            "button_label": "Submit",
+            "agentID": "42",
+            "postURL": "http://localhost:3333/preview.html#main",
+            "background": "http://www.wallpapersbyte.com/wp-content/uploads/2015/08/White-Gray-Clouds-Porous-Sky-Top-View-WallpapersByte-com-1080x1920.jpg"
+          }
+        }
+      ]
+    }
+  }
+}

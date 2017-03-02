@@ -1,0 +1,25 @@
+{
+  "name": "locomotivecms-site-builder-bower-dependencies",
+  "version": "0.0.0",
+  "authors": [
+    "Didier Lafforgue <did@locomotivecms.com>"
+  ],
+  "license": "Copyright 2016 NoCoffee SARL",
+  "private": "true",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "bootstrap-sass-official": "x"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": ["fonts", "css"]
+    }
+  }
+}

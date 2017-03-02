@@ -1,0 +1,123 @@
+{
+  "name": "Test",
+  "handle": "test",
+  "description": "Please insert a description here",
+  "blocks": [
+    {
+      "label": "Header",
+      "type": "header",
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "Est nulla culpa illo."
+        },
+        {
+          "name": "background",
+          "type": "image",
+          "default": "http://placehold.it/200x200&text=Placeholder"
+        }
+      ]
+    },
+    {
+      "label": "ContentWidget",
+      "type": "content_widget",
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "Dolores quaerat esse earum harum."
+        },
+        {
+          "name": "background",
+          "type": "image",
+          "default": "http://placehold.it/200x200&text=Placeholder"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "default": "Ad ab enim aliquam veniam incidunt distinctio."
+        }
+      ]
+    },
+    {
+      "label": "TestForm",
+      "type": "test_form",
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "Corrupti aliquam autem tempore et voluptatem numquam fugit."
+        },
+        {
+          "name": "text",
+          "type": "text",
+          "default": "<p>Sed cum et sit nemo rerum accusantium quo nihil. Ratione voluptatum consequatur sit iste temporibus in. Dicta perspiciatis qui. Quisquam nam et quos quo laborum.</p>\n<p>Dicta ad sint cupiditate nam architecto asperiores similique facilis consequatur. Unde possimus rerum neque et. Vel necessitatibus voluptate. Accusamus consequatur sequi consequatur enim sunt suscipit dolores nisi cupiditate. Sint magni error impedit sequi distinctio magni et sunt. Quia qui quasi dignissimos reiciendis nesciunt ducimus.</p>"
+        },
+        {
+          "name": "button_label",
+          "type": "text",
+          "default": "<p>Consequatur sed tempore. Laborum quia quo vel rem sint est quod et velit. At ratione nam.</p>\n<p>Qui quasi quas necessitatibus. Similique reiciendis dicta. Debitis quo nisi. Aperiam qui enim vero.</p>"
+        },
+        {
+          "name": "postURL",
+          "type": "link"
+        },
+        {
+          "name": "agentID",
+          "type": "text",
+          "default": "<p>A ullam consequatur minima. Quia rerum distinctio et nam unde omnis aperiam. Fuga consequatur error perspiciatis consequatur.</p>\n<p>Quam iure voluptatibus. Soluta esse tempora vitae et ut aut voluptates. Corporis consequatur ducimus suscipit voluptates aspernatur inventore. Quibusdam nam libero culpa soluta corporis. Sed neque magni magni accusantium. Quia sed aut non corrupti et doloribus.</p>"
+        },
+        {
+          "name": "background",
+          "type": "image",
+          "default": "http://placehold.it/200x200&text=Placeholder"
+        }
+      ]
+    },
+    {
+      "label": "TestForm2",
+      "type": "test_form_2",
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "default": "Aut ipsum assumenda."
+        },
+        {
+          "name": "text",
+          "type": "text",
+          "default": "<p>Numquam similique cupiditate aut dicta quas voluptatem iste sint molestias. Placeat aut officia veritatis. Ullam quaerat qui ipsa repellat.</p>\n<p>Asperiores omnis est dolorum. Pariatur dolorem sed. Id nesciunt harum deleniti id ullam beatae doloremque. Et labore fugiat ex beatae. Quae eos ipsam. Debitis eius voluptatem aut tempore.</p>"
+        },
+        {
+          "name": "button_label",
+          "type": "string",
+          "default": "Est qui delectus ut voluptate fuga velit vero dolores."
+        },
+        {
+          "name": "postURL",
+          "type": "link"
+        },
+        {
+          "name": "agentID",
+          "type": "string",
+          "default": "Tenetur id ducimus quos tenetur."
+        },
+        {
+          "name": "background",
+          "type": "image",
+          "default": "http://placehold.it/200x200&text=Placeholder"
+        }
+      ]
+    }
+  ],
+  "style": [],
+  "default_pages": [
+    {
+      "title": "Home page",
+      "slug": "index",
+      "position": 0,
+      "blocks": []
+    }
+  ]
+}
